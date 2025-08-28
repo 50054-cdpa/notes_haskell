@@ -524,7 +524,7 @@ eval e = case e of
     Const i     -> i
 ```
 
-In Haskell, algebraic datatype values can be accessed (destructured) via pattern matching.
+In Haskell, algebraic datatype values can be accessed (deconstructured) via pattern matching.
 
 If we run:
 
