@@ -302,7 +302,7 @@ printAsJSON myTeam
 Type class enables us to develop modular and resusable codes. It is related to a topic of *Generic Programming*. In computer programming, generic programming refers to the coding approach which an instance of code is written once and used for many different types/instances of values/objects.
 
 
-In the next few section, we consider some common patterns in FP that are promoting generic programming.
+In the next few sections, we consider some common patterns in FP that are promoting generic programming.
 
 
 ## Functor
