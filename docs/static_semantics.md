@@ -337,7 +337,7 @@ Likewise for the following SIMP program
 ```java
 y = y + 1
 ```
-we can also deduce that `y` is a of type `int`.
+we can also deduce that `y` is of type `int`.
 
 What we aim to achieve is a sound and systematic process to deduce the omitted type information.
 
