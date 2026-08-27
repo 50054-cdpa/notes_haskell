@@ -81,9 +81,8 @@ If you have course/assignment/project related questions, please post it on the d
 
 ## Things you need to prepare
 
-* If you are using Windows 10 or Windows 11, please install ubuntu subsystems
-    * [Win10](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
-    * [Win11](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
+* If you are using Windows 11, please install ubuntu subsystems
+    * [Win11](https://ubuntu.com/wsl/docs/stable/#1-overview)
 * If you are using Linux, it should be perfect.
 * If you are using Mac, please install homebrew.
 * Install Haskell tools
@@ -104,15 +103,15 @@ If you have course/assignment/project related questions, please post it on the d
 
 ## Project
 
-[Project Template](https://github.com/50054-cdpa/project/)
+[Project Template](https://github.com/50054-cdpa/project_haskell/)
 
 The aim of the project is to apply the techniques and concepts taught in this module to develop a simple compiler for the SIMP language. 
 
-You may work as a team (up to max 3 members). Please register your team [here](https://docs.google.com/spreadsheets/d/1oH51zYVGD6ieXwr2Nc8UZxK9q4qMxBMRp-pQxgJCXL8/edit?usp=sharing).  
+You may work as a team (up to max 3 members). Please register your team [here](https://docs.google.com/spreadsheets/d/15eHM4XxJ-EB-EDPBnOZkrQqzwOlQEwspbwxtL2qmazA/edit?usp=sharing).  
 
-* Lab 1 (10%, Deadline - 17 Nov 2024 23:59)
-* Lab 2 (10%, Deadline - 1  Dec 2024 23:59)
-* Lab 3 (15%, Deadline - 15 Dec 2024 23:59)
+* Lab 1 (10%, Deadline - 15 Nov 2026 23:59)
+* Lab 2 (10%, Deadline - 29 Nov 2026 23:59)
+* Lab 3 (15%, Deadline - 13 Dec 2026 23:59)
 
 
 ## Submission Policy and Plagiarism
