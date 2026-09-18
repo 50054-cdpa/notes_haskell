@@ -136,7 +136,7 @@ sum l = case l of
 
 Pattern cases are visited from top to bottom (or left to right). In this example, we first check whether the input list `l` is an empty list. If it is empty, the sum of an empty list must be `0`. 
 
-If the input list `l` is not an empty list, it must have at least one element. The pattern `hd:tl` extracts the first element of the list and binds it to a local variable `hd` and the remainder (which is the sub list formed by taking away the first element from `l`) is bound to `hd`. We often call `hd` as the head of the list and `tl` as the tail. We would like to remind that `hd` is storing a single integer in this case, and `tl` is capturing a list of integers.
+If the input list `l` is not an empty list, it must have at least one element. The pattern `hd:tl` extracts the first element of the list and binds it to a local variable `hd` and the remainder (which is the sub list formed by taking away the first element from `l`) is bound to `tl`. We often call `hd` as the head of the list and `tl` as the tail. We would like to remind that `hd` is storing a single integer in this case, and `tl` is capturing a list of integers.
 
 If the case pattern is the outer most expression in a function body, we could rewrite it as follows,
 
