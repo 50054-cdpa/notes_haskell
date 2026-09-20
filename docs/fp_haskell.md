@@ -169,7 +169,7 @@ reverse l = case l of
     hd:tl -> reverse tl ++ [hd]
 ```
 
-The function `reverse` takes a list of integers and generates a new list which is in the reverse order of the orginal one. We apply a similar strategy to break down the problem into two sub-problems via the `case` expression.
+The function `reverse` takes a list of integers and generates a new list which is in the reverse order of the orginal one. We apply a similar strategy to break down the problem into two sub-problems via the `match` expression.
 
 * When the input list `l` is an empty list, we return an empty list. The reverse of an empty list is an empty list
 * When the input `l` is not empty, we make use of the pattern `hd:tl` to extract the head and the tail of the list
@@ -579,8 +579,6 @@ Running `mapML (\x -> x+1) (Cons 1 Nil)` yields
 `Cons 2 Nil`.
 
 
-
-yields the same output as above.
 
 ## Summary
 
