@@ -110,7 +110,7 @@ reverse l = case l of
 ### Polymorphic Algebraic Datatype
 
 
-Recall that the following Algebraic Datatype from the last lesson. 
+Recall the following Algebraic Datatype from the last lesson. 
 
 ```hs
 data MyList = Nil | Cons Int MyList
@@ -119,11 +119,11 @@ mapML f Nil          = Nil
 mapML f (Cons hd tl) = Cons (f hd) (mapML f tl)
 ```
 
-Same observation applies. `MyList` could have a generic element type `a` instead of `Int` and `mapML` should remains unchanged.
+Same observation applies. `MyList` could have a generic element type `a` instead of `Int` and `mapML` should remain unchanged.
 
 
 ```hs
-data MyList a = Nil | Cons a MyList
+data MyList a = Nil | Cons a (MyList a)
 -- mapML definition remains unchanged
 ```
 
