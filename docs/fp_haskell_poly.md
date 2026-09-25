@@ -127,7 +127,7 @@ data MyList a = Nil | Cons a (MyList a)
 -- mapML definition remains unchanged
 ```
 
-After the update,  `MyList` does represent a type, but a type constructor. This is because 
+After the update,  `MyList` doesn't represent a type, but a type constructor. This is because 
 `MyList` itself is not a type, but `MyList Int`, `MyList String` or `MyList a` are types. 
 
 
