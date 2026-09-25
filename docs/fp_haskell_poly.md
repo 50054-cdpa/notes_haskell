@@ -80,7 +80,7 @@ In Haskell, the symbols enclosed in a pair of parenthesis are user-defined infix
 ```
 
 > Note we have to put extra parathenses, since function applications are left associated, without the paranthesis 
-`g . f 2` will be parsed as `((g .) f) 2` by Haskell which is ill-typed.
+`g . f 2` will be parsed as `g . (f 2)` by Haskell which is ill-typed.
 
 ## Generics
 
